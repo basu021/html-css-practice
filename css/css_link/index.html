@@ -2,6 +2,30 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="style.css">
+    <!-- internal css -->
+    <style>
+        h1 {
+            color: red;
+        }
+        
+        .master {
+            background-color: green;
+        }
+        
+        #main-head {
+            color: yellow;
+        }
+        
+        h1 {
+            color: blue;
+        }
+        
+        .master {
+            color: violet;
+        }
+    </style>
+    <!-- End internal css -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +33,10 @@
 </head>
 
 <body>
-
+    <h1 style="border: 2px solid black;" class="first heading master" id="main-head">THis element will be styled using inline css</h1>
+    <h2 class="master">This one is using internal css</h2>
+    <h3>This one is using External css</h3>
+    <h1>this is a h1 tag too</h1>
 </body>
 
 </html>
